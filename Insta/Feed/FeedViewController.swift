@@ -27,9 +27,6 @@ class FeedViewControlller: UIViewController {
             .init(image: UIImage(named: "storyPhoto")!, username: "iosre", isAddButtonVisible: false, isNewStory: false),
             .init(image: UIImage(named: "storyPhoto")!, username: "fw", isAddButtonVisible: false, isNewStory: true)
                  ]),
-        .post(.init(userImage: UIImage(named: "storyPhoto")!, username: "oop", postSubtitle: "Sponsored", postImage: UIImage(named: "photo")!, numberOfLikes: 515, comment: .init(username: "iosre", commentText: "fafaagkjhagskjhaskjhgjgsajsgajghjasgl"))),
-        .post(.init(userImage: UIImage(named: "storyPhoto")!, username: "oop", postSubtitle: "Sponsored", postImage: UIImage(named: "photo")!, numberOfLikes: 515, comment: .init(username: "iosre", commentText: "fafaagkjhagskjhaskjhgjgsajsgajghjasgl"))),
-        .post(.init(userImage: UIImage(named: "storyPhoto")!, username: "oop", postSubtitle: "Sponsored", postImage: UIImage(named: "photo")!, numberOfLikes: 515, comment: .init(username: "iosre", commentText: "fafaagkjhagskjhaskjhgjgsajsgajghjasgl"))),
         .post(.init(userImage: UIImage(named: "storyPhoto")!, username: "oop", postSubtitle: "Sponsored", postImage: UIImage(named: "photo")!, numberOfLikes: 515, comment: .init(username: "iosre", commentText: "fafaagkjhagskjhaskjhgjgsajsgajghjasgl")))
         ]
 }
